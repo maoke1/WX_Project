@@ -1,0 +1,78 @@
+<view class='my'>
+
+  <view class="topbar clearfix" style="padding-top:{{statusBarHeight}}px">
+    <view class="input-box row">
+      <text>我的</text>
+    </view>
+  </view>
+  <view class="top-comend" style="padding-top:{{statusBarHeight}}px"></view>
+
+  <!-- <button bindgetuserinfo="bindGetUserInfo">授权登录</button> -->
+
+  <!-- ===================头部=================================== -->
+  
+ 
+  <view class='my_top'>
+    <view class='my_to'>
+      <view class='mt_top'>
+        <!-- <image src='{{avatarUrl}}'></image> -->
+        <open-data type="userAvatarUrl" class="img"></open-data>
+      </view>
+      <view class='mt_bottom'>
+        <!-- <text>{{nickName}}</text> -->
+         <open-data type="userNickName" class="text"></open-data>
+      </view>
+    </view>
+
+  </view>
+
+
+  <!-- =====================中部============================= -->
+  <view class='my_middle'>
+    <view class='my_mm'>
+      <view class='mid_top clearfix'>
+        <view class='mt_l'>
+          <text>我的订单</text>
+        </view>
+        <view class='mt_r'>
+          <text>查看全部</text>
+          <image src='../../image/you.png'></image>
+        </view>
+      </view>
+
+      <view class='mid_bottom clearfix'>
+        <navigator url="/pages/shop/shop" hover-class='none'>
+          <view class='bot_one'>
+            <image src='../../image/my0.png'></image>
+            <view>
+              <text>购物车</text>
+            </view>
+          </view>
+        </navigator>
+        <view class='bot_one'>
+          <image src='../../image/my1.png'></image>
+          <view>
+            <text>我的订单</text>
+          </view>
+        </view>
+        <view class='bot_one'>
+          <image src='../../image/my2.png'></image>
+          <view>
+            <text>退款/售后</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- =====================尾部============================= -->
+  <view class='my_bottom'>
+    <view class='mb_one'>
+      <view class='bot_one' wx:for="{{my_Array}}" wx:key="{{index}}">
+        <image src='{{item.iconurl}}'></image>
+        <view>
+          <text>{{item.text}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

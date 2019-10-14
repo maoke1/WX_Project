@@ -1,0 +1,38 @@
+<view class='xlx'>
+
+      <view class="topbar" style="padding-top:{{statusBarHeight}}px">
+            <view class="arrow-box row">
+                  <image src="../../image/zuo.png" bindtap="navigateBack"></image>
+            </view>
+            <view class="input-box row">
+                  <text>小龙虾专题</text>
+            </view>
+      </view>
+      <view class="top-comend" style="padding-top:{{statusBarHeight}}px"></view>
+
+      <view class='xlx_o'>
+            <cover-image src='../../image/xlx.png' class='zp1'></cover-image>
+            <view class='txt1'>整只小龙虾</view>
+            <view class='txt2'>厨余垃圾</view>
+      </view>
+      <view class='xlx_o'>
+            <cover-image src='../../image/zt2.png' class='zp1'></cover-image>
+            <view class='txt1'>去黄龙虾头</view>
+            <view class='txt2'>厨余垃圾</view>
+      </view>
+      <view class='xlx_o'>
+            <cover-image src='../../image/zt3.png' class='zp1'></cover-image>
+            <view class='txt1'>龙虾壳</view>
+            <view class='txt2 txt22'>厨余垃圾</view>
+      </view>
+      <view class='xlx_o'>
+            <cover-image src='../../image/zt4.png' class='zp1'></cover-image>
+            <view class='txt1'>龙虾肉</view>
+            <view class='txt2 txt22'>厨余垃圾</view>
+      </view>
+      <view class='xlx_o'>
+            <cover-image src='../../image/zt5.png' class='zp1'></cover-image>
+            <view class='txt1'>龙虾黄</view>
+            <view class='txt2 txt22'>厨余垃圾</view>
+      </view>
+</view>

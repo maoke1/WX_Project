@@ -1,0 +1,55 @@
+page {
+      background-color: #f5f5f5;
+}
+.xlx {
+      width: 100%;
+      height: 100%;    
+}
+.input-box {
+      margin-left: 0px;
+}
+.xlx .xlx_o {
+      background-color: white;
+      width: 90%;
+      height: 70px;
+      margin: 10px auto;
+      border-radius: 10px;
+      line-height: 70px;
+      border-bottom: 2px solid #f5f5f5;
+}
+
+.xlx .xlx_o .zp1 {
+      height: 40px;
+      width: 40px;
+      margin-left: 15px;
+      margin-top: 20px;
+}
+
+.xlx .xlx_o .zp1, .xlx .xlx_o .txt1, .xlx .xlx_o .txt2 {
+      display: inline-block;
+}
+ .xlx .xlx_o .txt1{
+       margin-left: 50px;
+       vertical-align: middle;
+       margin-top: -40px;
+ }
+ .xlx .xlx_o .txt2{
+       margin-left: 50px;
+       vertical-align: middle;
+       margin-top: -40px;
+ }
+  .xlx .xlx_o .txt2_1{
+       margin-left: 70px;
+ }
+ .xlx .xlx_o .txt2_2{
+       margin-left: 55px;
+ }
+ .xlx .xlx_o .txt2_3{
+       margin-left: 90px;
+ }
+
+.xlx .xlx_o .txt2_4{
+       margin-left: 70px;
+ }
+
+

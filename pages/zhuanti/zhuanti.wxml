@@ -1,0 +1,57 @@
+<view class='zhuanti'>
+
+      <view class="topbar" style="padding-top:{{statusBarHeight}}px">
+            <view class="input-box row">
+                  <text>专题</text>
+            </view>
+      </view>
+      <view class="top-comend" style="padding-top:{{statusBarHeight}}px"></view>
+      
+      <navigator url="../../pages/xiaolx/xiaolx" hover-class='none'>
+            <view class='zt zt1'>
+                  <cover-image src='/image/xlx.png' class='zp1'></cover-image>
+                  <view class='txt1'>小龙虾</view>
+                  <cover-image src='../../image/you.png' class='zp11'></cover-image>
+            </view>
+      </navigator>
+
+      <navigator url="../../pages/zonzi/zonzi" hover-class='none'>
+            <view class='zt'>
+                  <cover-image src='/image/zz.png' class='zp1'></cover-image>
+                  <view class='txt1'>粽子</view>
+                  <cover-image src='../../image/you.png' class='zp11'></cover-image>
+            </view>
+      </navigator>
+
+      <navigator url="../../pages/naicha/naicha" hover-class='none'>
+            <view class='zt'>
+                  <cover-image src='/image/nc.png' class='zp1'></cover-image>
+                  <view class='txt1'>奶茶</view>
+                  <cover-image src='../../image/you.png' class='zp11'></cover-image>
+            </view>
+      </navigator>
+
+      <navigator url="../../pages/dianchi/dianchi" hover-class='none'>
+            <view class='zt'>
+                  <cover-image src='/image/dc.png' class='zp1'></cover-image>
+                  <view class='txt1'>电池</view>
+                  <cover-image src='../../image/you.png' class='zp11'></cover-image>
+            </view>
+      </navigator>
+
+      <navigator url="../../pages/waimai/waimai" hover-class='none'>
+            <view class='zt'>
+                  <cover-image src='/image/wm.png' class='zp1'></cover-image>
+                  <view class='txt1'>外卖</view>
+                  <cover-image src='../../image/you.png' class='zp11'></cover-image>
+            </view>
+      </navigator>
+
+      <navigator url="../../pages/huazp/huazp" hover-class='none'>
+            <view class='zt'>
+                  <cover-image src='/image/hzp.png' class='zp1'></cover-image>
+                  <view class='txt1'>化妆品</view>
+                  <cover-image src='../../image/you.png' class='zp11'></cover-image>
+            </view>
+      </navigator>
+</view>

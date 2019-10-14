@@ -1,0 +1,218 @@
+/* pages/shop/shop.wxss */
+
+page {
+  background-color: #f5f5f5;
+}
+
+.input-box {
+  margin-left: 0px;
+}
+
+.shop {
+  margin-bottom: 70px;
+}
+.t_title{
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+  margin-top: 200px;
+  text-align: center;
+  color: red
+}
+/* ============================================== */
+
+.shop_sp {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  /* margin-bottom: 55px; */
+}
+
+.shop_sph {
+  width: 95%;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.sp_left {
+  width: 40%;
+}
+
+.sp_left image {
+  height: 100px;
+  width: 100px;
+}
+
+.checkbox {
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.img {
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  /* line-height: 100px; */
+}
+
+.img image {
+  vertical-align: middle;
+}
+
+.hnk {
+  display: inline-block;
+}
+
+.sp_right {
+  width: 60%;
+  float: right;
+}
+
+.sp_right .sp_top {
+  height: 50px;
+  font-size: 16px;
+  padding-top: 5px;
+  /* background-color: orange */
+}
+
+.sp_right .sp_top text {
+  margin-left: 5px;
+}
+
+.sp_bottom {
+  height: 50px;
+}
+
+.sp_bottom_left {
+  height: 50px;
+  width: 35%;
+  line-height: 50px;
+}
+
+.sp_bottom_left text {
+  margin-left: 5px;
+  color: red;
+}
+
+.sp_bottom_middle .jia, .sp_bottom_middle .jian {
+  text-align: center;
+  display: inline-block;
+  /* border: 1px solid #8a8a8a; */
+  width: 32%;
+  height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.sp_bottom_middle .jia text, .sp_bottom_middle .jian text {
+  font-size: 15px;
+}
+
+.sp_bottom_middle .jian {
+  border-left: 1px solid #8a8a8a;
+  border-top: 1px solid #8a8a8a;
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.sp_bottom_middle .jia {
+  border-right: 1px solid #8a8a8a;
+  border-top: 1px solid #8a8a8a;
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.sp_bottom_middle {
+  height: 50px;
+  width: 45%;
+  line-height: 50px;
+}
+
+.sp_bottom .sp_bottom_middle .val {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  width: 30%;
+  display: inline-block;
+  margin-top: 10px;
+  border: 1px solid #8a8a8a;
+}
+
+.sp_bottom .sp_bottom_middle .val .inp {
+  text-align: center;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.sp_bottom_right {
+  height: 50px;
+  width: 20%;
+  position: relative;
+}
+
+.sp_bottom_right image {
+  height: 25px;
+  width: 25px;
+  right: 20%;
+  bottom: 20%;
+  position: absolute;
+}
+
+/* =======================底部导航================================== */
+
+.shop_bottom {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-top: 1px solid #e8e6e7;
+  line-height: 50px;
+  margin-top: 55px;
+  z-index: 10;
+  font-size: 15px;
+}
+
+.shop_bottom .sbc {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.shop_bottom .sb_left {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.shop_bottom .sb_left1 {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 70px;
+}
+
+.shop_bottom .sb_left1 checkbox {
+  margin-left: 10px;
+}
+
+.shop_bottom .sb_left .zonjia {
+  color: red;
+}
+
+.shop_bottom .sb_right {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 100px;
+  text-align: center;
+  background-color: orange;
+  border-radius: 10px;
+  margin-top: 5px;
+}

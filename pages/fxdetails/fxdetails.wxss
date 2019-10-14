@@ -1,0 +1,47 @@
+/* pages/fxdetails/fxdetails.wxss */
+.input-box{
+  margin-left: 0px;
+}
+.title{
+  width: 92%;
+  margin: 0 auto;
+}
+.title .tt{
+  margin-top: 5px;
+  font-size: 16px;
+}
+.title .dd{
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #b0acad;
+}
+.d3{
+  display: inline-block;
+  margin-left: 15px;
+}
+.d3 image{
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+.d3 text{
+  margin-left: 3px;
+}
+.d2{
+  margin-left: 15px;
+}
+.sptext {
+  width: 92%;
+  margin: 5px auto;
+}
+.spImg{
+  width: 92%;
+  margin: 0 auto;
+}
+.spimg{
+  width: 100%;
+}
+.xinix{
+  margin-bottom: 20px;
+}

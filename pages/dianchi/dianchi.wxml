@@ -1,0 +1,32 @@
+<view class='xlx'>
+<view class="topbar" style="padding-top:{{statusBarHeight}}px">
+            <view class="arrow-box row">
+                  <image src="../../image/zuo.png" bindtap="navigateBack"></image>
+            </view>
+            <view class="input-box row">
+                  <text>电池专题</text>
+            </view>
+      </view>
+      <view class="top-comend" style="padding-top:{{statusBarHeight}}px"></view>
+      
+      <view class='xlx_o'>
+           <cover-image src='../../image/dianchi1.png' class='zp1'></cover-image> 
+           <view class='txt1'>无汞干电池</view>
+           <view class='txt2'>其他垃圾</view>
+      </view>
+      <view class='xlx_o'>
+           <cover-image src='../../image/dianchi2.png' class='zp1'></cover-image> 
+           <view class='txt1'>充电宝</view>
+           <view class='txt2 txt2_2'>可回收物</view>
+      </view>
+      <view class='xlx_o'>
+           <cover-image src='../../image/dianchi3.png' class='zp1'></cover-image> 
+           <view class='txt1'>手机电池</view>
+           <view class='txt2 txt2_3'>有害垃圾</view>
+      </view>
+      <view class='xlx_o'>
+           <cover-image src='../../image/dianchi4.png' class='zp1'></cover-image> 
+           <view class='txt1'>蓄电池</view>
+           <view class='txt2 txt2_4'>有害垃圾</view>
+      </view>
+</view>

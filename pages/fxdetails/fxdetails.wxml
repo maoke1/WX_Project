@@ -1,0 +1,37 @@
+<view class="fxdetails">
+
+  <view class="topbar" style="padding-top:{{statusBarHeight}}px">
+    <view class="arrow-box row">
+      <image src="../../image/zuo.png" bindtap="navigateBack"></image>
+    </view>
+    <view class="input-box row">
+      <text>发现</text>
+    </view>
+  </view>
+  <view class="top-comend" style="padding-top:{{statusBarHeight}}px"></view>
+
+  <!-- =========================主体内容======================================= -->
+  <view class="xinix">
+    <view class="title">
+      <view class="tt">
+        <text>{{spTitle}}</text>
+      </view>
+      <view class="dd">
+        <text class="d1">{{spT1}}</text>
+        <text class="d2">{{spT2}}</text>
+        <view class="d3">
+          <image src="../../image/eye.png"></image>
+          <text>{{spT3}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="spImg">
+      <image src="{{spImg}}" class="spimg"></image>
+    </view>
+    <view class="sptext">
+      <text>{{spText}}</text>
+    </view>
+  </view>
+
+
+</view>

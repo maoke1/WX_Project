@@ -1,0 +1,33 @@
+<view class='xlx'>
+<view class="topbar" style="padding-top:{{statusBarHeight}}px">
+            <view class="arrow-box row">
+                  <image src="../../image/zuo.png" bindtap="navigateBack"></image>
+            </view>
+            <view class="input-box row">
+                  <text>化妆品专题</text>
+            </view>
+      </view>
+      <view class="top-comend" style="padding-top:{{statusBarHeight}}px"></view>
+      
+      
+      <view class='xlx_o'>
+           <cover-image src='../../image/huazp1.png' class='zp1'></cover-image> 
+           <view class='txt1'>指甲油</view>
+           <view class='txt2 txt2_1'>有害垃圾</view>
+      </view>
+      <view class='xlx_o'>
+           <cover-image src='../../image/huazp2.png' class='zp1'></cover-image> 
+           <view class='txt1'>指甲油瓶</view>
+           <view class='txt2 txt2_2'>有害垃圾</view>
+      </view>
+      <view class='xlx_o'>
+           <cover-image src='../../image/huazp3.png' class='zp1'></cover-image> 
+           <view class='txt1'>口红</view>
+           <view class='txt2 txt2_3'>其他垃圾</view>
+      </view>
+      <view class='xlx_o'>
+           <cover-image src='../../image/huazp4.png' class='zp1'></cover-image> 
+           <view class='txt1'>面霜瓶</view>
+           <view class='txt2 txt2_4'>可回收物</view>
+      </view>
+</view>

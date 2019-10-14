@@ -1,0 +1,82 @@
+<view class="spxq">
+
+  <view class="topbar" style="padding-top:{{statusBarHeight}}px">
+    <view class="arrow-box row">
+      <image src="../../image/zuo.png" bindtap="navigateBack"></image>
+    </view>
+    <view class="input-box row">
+      <text>商品详情页</text>
+    </view>
+  </view>
+  <view class="top-comend" style="padding-top:{{statusBarHeight}}px"></view>
+
+  <!-- ===========================轮播图 ======================-->
+
+  <view class="page-section page-section-spacing swiper">
+    <swiper style="height: 250px" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}">
+      <block wx:for="{{Info.detailsImgs}}" wx:key="{{index}}" mode="widthFix">
+        <swiper-item>
+          <image bindload='imgloaded' src="{{item}}" class="auto-img swiper_image" mode="widthFix"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- =========================商品信息=============================== -->
+  <view class="sp_title">
+    <view class="sp_tl">
+      <view class="sp_left">
+        <text>{{Info.title}}</text>
+      </view>
+      <view class="sp_right">
+        <view class="lili">
+          <view class="li_top">
+            <image src="/image/shoucang.png"></image>
+          </view>
+          <view class="li_bottom">
+            <text>未收藏</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="sp_price">
+      <text>￥:{{Info.price}}</text>
+      <text class="oldPrice">￥:{{Info.goodsOldPrice}}</text>
+      <text class="yuexiao">月销{{Info.yuexiao}}+</text>
+    </view>
+  </view>
+
+  <view class="fahuo">
+    <view class="ff">
+      发货:本商品由北京发货,预计
+      <text class="redtext">3-4天</text>送达
+    </view>
+  </view>
+
+  <view class="content">
+    <view class="con_li">
+      <view class="spp">
+        <text>商品详情</text>
+      </view>
+      <text>{{Info.description}}</text>
+    </view>
+  </view>
+
+  <!-- =====================底部按钮================================== -->
+  <view class='goods_bottom_btn clearfix' wx:for="{{shopList}}" wx:key="index">
+    <navigator url="../../pages/shop/shop">
+      <view class='btn bt1'>
+        <view class='num'>
+          <image src='../../image/car.png'></image>
+          <text>{{shopcartCount}}</text>
+        </view>
+      </view>
+    </navigator>
+    <view class='btn bt3' bindtap='addCart' data-goodid="{{shopList.goodsId}}">
+      加入购物车
+    </view>
+    <view class='btn bt4'>
+      立即购买
+    </view>
+  </view>
+
+</view>

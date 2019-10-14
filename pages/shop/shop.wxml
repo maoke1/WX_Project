@@ -1,0 +1,71 @@
+<!--pages/shop/shop.wxml-->
+<view class='shop'>
+  <view>
+    <view class="topbar clearfix" style="padding-top:{{statusBarHeight}}px">
+      <view class="arrow-box row">
+        <image src="../../image/zuo.png" bindtap="navigateBack"></image>
+      </view>
+      <view class="input-box row">
+        <text>购物车</text>
+      </view>
+    </view>
+    <view class="top-comend" style="padding-top:{{statusBarHeight}}px"></view>
+  </view>
+
+  <view wx:if='{{goodsdata.length==0}}' class="t_title">您还没添加任何商品...</view>
+  <view class='shop_sp' wx:for="{{goodsdata}}" wx:key="index">
+    <view class='shop_sph clearfix'>
+
+      <view class='sp_left hnk'>
+        <view class="checkbox">
+          <checkbox data-alpha="{{index}}" class="check" checked="{{item.isSelect}}" bindtap="simpleSelected" />
+        </view>
+        <view class="img">
+          <image src='{{item.img}}'></image>
+        </view>
+      </view>
+      <view class='sp_right hnk'>
+        <view class='sp_top'>
+          <text>{{item.title}}</text>
+        </view>
+        <view class='sp_bottom clearfix'>
+          <view class=' sp_bottom_left left'>
+            <text>￥:</text>
+            <text>{{item.price}}</text>
+          </view>
+          <view class=' sp_bottom_middle left'>
+            <view class='jian left' bindtap='reduce' data-alpha="{{index}}">
+              -
+            </view>
+            <view class='left val'>
+              <input value='{{item.number}}' class='inp'></input>
+            </view>
+            <view class='jia left' bindtap='add' data-alpha="{{index}}">
+              +
+            </view>
+          </view>
+          <view class=' sp_bottom_right left'>
+            <image src='../../image/shanchu.png' bindtap='del' data-alpha="{{index}}"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- ==========================底部导航=========================== -->
+  <view class='shop_bottom clearfix' wx:if='{{goodsdata.length>0}}'>
+    <view class='sbc'>
+      <view class='sb_left1'>
+        <text class="t">全选</text>
+        <checkbox bindtap="allSelected" class="check c" checked="{{allSelectedStatus}}" />
+      </view>
+      <view class='sb_left'>
+        总价:
+        <text class='zonjia'>￥{{totalData}}</text>
+      </view>
+      <view class='sb_right right'>
+        下单
+      </view>
+    </view>
+  </view>
+</view>

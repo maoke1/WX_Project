@@ -1,0 +1,191 @@
+/* ============================头部==================================== */
+.active{
+   background-color: green;
+}
+.chacun_project {
+  width: 100%;
+  height: 100%;
+}
+
+.index_top {
+  width: 100%;
+  height: 50px;
+}
+
+.top_li {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background: white;
+}
+
+.top_dizhi {
+  display: inline-block;
+  width: 20%;
+  /* line-height: 50px;
+  height: 50px; */
+  font-size: 15px;
+}
+
+.top_dizhi image {
+  margin-left: 5px;
+  margin-top: -5px;
+  vertical-align: middle;
+}
+
+.top_chaxun {
+  display: inline-block;
+  width: 80%;
+  position: relative;
+  top: 10px;
+  height: 50px;
+  font-size: 15px;
+  z-index: 100000;
+}
+
+.top_chaxun image {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.index_inp {
+  height: 30px;
+  width: 85%;
+  border-radius: 50px;
+  background-color: #f5f5f5;
+  padding-left: 35px;
+}
+
+.top_dizhi image, .top_chaxun image {
+  width: 20px;
+  height: 20px;
+}
+
+/* ==============================滚动公告栏========================================= */
+
+.top_gonggao {
+  height: 30px;
+  overflow: hidden;
+  background-color: #fef9e6;
+  font-size: 12px;
+  line-height: 30px;
+  color: #776734;
+  position: fixed;
+}
+
+/* =================================分类============================= */
+
+.fenlei {
+  width: 100%;
+  height: 100%;
+  background: white;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.fenlei .fenlei_left {
+  width: 24%;
+  height: 85%;
+  background-color: #f8f6f7;
+  display: inline-block;
+  position: fixed;
+  /* color: #9c9c9c; */
+}
+
+.ewm {
+  position: fixed;
+  bottom: 15px;
+  left: 20px;
+}
+
+.ewm image {
+  width: 40px;
+  height: 40px;
+}
+.fx{
+  position: fixed;
+  height: 35px;
+  width: 80px;
+  bottom: 60px;
+  right: 20px;
+  font-size: 13px;
+  border-radius: 20px;
+  background-color: #f8f6f7;
+  line-height: 35px;
+  text-align: center;
+}
+.ly{
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  font-size: 13px;
+   border-radius: 20px;
+  background-color: #f8f6f7;
+  height: 35px;
+  width: 80px;
+  line-height: 35px;
+  text-align: center;
+}
+.fx image,.ly image{
+   width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.fenlei .fenlei_left .lj {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.fenlei .fenlei_left .lj1 {
+  border-left: 3px solid green;
+}
+
+.fenlei .fenlei_left .lj2 {
+  border-left: 3px solid orange;
+}
+
+.fenlei .fenlei_left .lj3 {
+  border-left: 3px solid blue;
+}
+
+.fenlei .fenlei_left .lj4 {
+  border-left: 3px solid red;
+}
+
+.fenlei_right {
+  margin-top: 10px;
+  margin-right: 3%;
+  display: inline-block;
+  width: 70%;
+  background-color: #ffffff;
+  font-size: 15px;
+  border-radius: 10px;
+  float: right;
+  top: 50px;
+  z-index: 0;
+}
+
+.fenlei_right .fr_top {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.fenlei_right .fr_top image {
+  height: 100px;
+  width: 100px;
+}
+
+.fr_bottom {
+  margin-bottom: 10px;
+}
+
+.fenlei_right_content {
+  height: 45px;
+  line-height: 45px;
+  background-color: white;
+  width: 100px;
+  color: red
+}

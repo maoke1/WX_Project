@@ -1,0 +1,170 @@
+page {
+  background-color: #f5f5f5;
+}
+
+.topbar {
+  background-color: #36bd7b;
+  position: fixed;
+}
+
+.input-box text, .mt_bottom text {
+  color: whitesmoke;
+}
+
+/* ===============头部======================== */
+
+.my {
+  margin-bottom: 15px;
+}
+
+.my_top {
+  width: 100%;
+  height: 150px;
+  background-color: #36bd7b;
+}
+
+.my_top .my_to {
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.my_top .my_to .mt_top {
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.my_top .my_to .mt_top image {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.my_top .my_to .mt_top .img {
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+}
+
+.mt_bottom {
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.mt_bottom .text {
+  font-size: 16px;
+  color: whitesmoke
+}
+
+/* ===============中部======================== */
+
+.my_middle {
+  width: 100%;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.my_middle .my_mm {
+  width: 90%;
+  height: 150px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.my_middle .my_mm .mid_top {
+  border-bottom: 1px solid #e8e6e7;
+  height: 60px;
+}
+
+.my_middle .my_mm .mid_top .mt_l {
+  height: 60px;
+  padding-left: 20px;
+  line-height: 60px;
+  display: inline-block;
+}
+
+.my_middle .my_mm .mid_top .mt_l text {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.my_middle .my_mm .mid_top .mt_r {
+  width: 100px;
+  height: 60px;
+  float: right;
+  line-height: 60px;
+  display: inline-block;
+}
+
+.my_middle .my_mm .mid_top .mt_r text {
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.my_middle .my_mm .mid_top .mt_r image {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.my_middle .my_mm .mid_bottom {
+  height: 90px;
+}
+
+.mid_bottom .bot_one {
+  padding-top: 20px;
+  height: 90px;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.mid_bottom .bot_one image {
+  height: 25px;
+  width: 25px;
+}
+
+.mid_bottom .bot_one text {
+  font-size: 12px;
+  color: #7e7c7d;
+}
+
+/* ===============尾部======================== */
+
+.my_bottom {
+  width: 100%;
+  height: 240px;
+  margin-top: 15px;
+}
+
+.my_bottom .mb_one {
+  width: 90%;
+  height: 240px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.my_bottom .mb_one image {
+  height: 25px;
+  width: 25px;
+}
+
+.my_bottom .mb_one .bot_one {
+  height: 70px;
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.my_bottom .mb_one .bot_one text {
+  font-size: 12px;
+  color: #7e7c7d;
+}

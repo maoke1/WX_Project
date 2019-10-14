@@ -1,0 +1,67 @@
+<view class='chacun_project'>
+
+  <view>
+    <view class="topbar clearfix" style="padding-top:{{statusBarHeight}}px">
+      <view class="input-box row">
+        <text>教你垃圾分类</text>
+      </view>
+    </view>
+    <view class="top-comend" style="padding-top:{{statusBarHeight}}px"></view>
+  </view>
+
+  <!-- ======================主页头部 ================================= -->
+  <view class="index_top">
+    <view class="top_li">
+      <view class="top_dizhi">
+        <image src="../../image/dizhi.png"></image>
+        上海
+      </view>
+      <view class="top_chaxun">
+        <image src="../../image/sousuo.png"></image>
+        <input class="index_inp" placeholder="搜索垃圾查看相应分类" />
+      </view>
+    </view>
+  </view>
+
+  <view class="top_gonggao">
+    <text>[全国垃圾分类测试]上线,朋友圈晒成绩单,大家一起来比拼！为大家推进垃圾分类,如有平台需接入垃圾分类查询查询服务,请留言。</text>
+  </view>
+  <!-- ==============================轮播文字============================== -->
+
+  <!-- ============================== 垃圾分类=========================== -->
+  <view class='fenlei clearfix'>
+   <!-- 主页左侧 -->
+    <view class='fenlei_left'>
+      <view wx:for="{{message}}" wx:key="{{index}}" bindtap="onclick" data-id="{{index}}" class="lj lj1">{{item.title}}</view>
+    </view>
+    <view class="ewm">
+      <image src="../../image/ewm.png"></image>
+    </view>
+    <!-- 主页右侧 -->
+    <view class='fenlei_right' wx:key="{{index}}">
+      <view class='fr_top'>
+        <image src='{{info.img}}'></image>
+      </view>
+      <!-- <view>{{info}}</view> -->
+      <view class='fr_middle'>
+        <text>{{info.text}}</text>
+      </view>
+      <view class='fr_bottom'>
+        <text>{{info.text1}}</text>
+      </view>
+      <!-- wx:for="{{message}}" -->
+      <view class="fenlei_right_content">
+        <view class="content">{{info.list}}</view>
+      </view>
+      <view class="fx">
+        <image src="../../image/fx.png"></image>
+        分享
+      </view>
+      <view class="ly">
+        <image src="../../image/ly.png"></image>
+        留言
+      </view>
+    </view>
+  </view>
+
+</view>
